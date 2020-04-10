@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
 *{
 	box-sizing: border-box;
 	text-align: center;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin: 0;
 	padding: 0;
 	font-weight: 400;
@@ -33,6 +33,9 @@
 	height: 100%;
 	object-fit: cover;
 }
+p{
+	padding: 3px;
+}
 @media  (max-width: 600px){
 	.img{
 		width: 100px;
@@ -43,7 +46,7 @@
 		height: 200px;
 	}
 	p h2{
-		margin: 10px;
+		padding: 10px;
 		width: 80%;
 	}
 }
